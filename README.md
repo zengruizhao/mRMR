@@ -1,6 +1,7 @@
 [对mRMR的解析](https://blog.csdn.net/z13653662052/article/details/87937289)
 
-代码进行了调整，删除了作者一些无效代码，看起来更加的清晰
+### 代码进行了调整，删除了作者一些无效代码，看起来更加的清晰
+### 作者使用了两种特征选取的方式，命名为[mid](https://github.com/zzrnuist/mRMR/blob/master/mrmr_mid_d.m) 和[miq](https://github.com/zzrnuist/mRMR/blob/master/mrmr_miq_d.m)
 ## README MI 0.9
 
 Mutual information computation, conditional probability and entropy estimation for
