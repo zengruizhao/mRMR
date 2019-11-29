@@ -15,7 +15,7 @@
 
 %only recompile all mex files when necessary
 %makeosmex;
-
+addpath('./src')
 echo on;
 
 a = [1 2 1 2 1]'; 
@@ -23,7 +23,7 @@ b = [2 1 2 1 1]';
 c = [2 1 2 2 1]';
 
 mutualinfo(a,b)
-entropy(a)+condentropy(b)-jointentropy(a,b)
+entropy(a) + condentropy(b) - jointentropy(a,b)
 condentropy(a,b)
 condentropy(a,c)
 jointentropy(a,c)

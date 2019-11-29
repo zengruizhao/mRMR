@@ -1,8 +1,9 @@
 [对mRMR的解析](https://blog.csdn.net/z13653662052/article/details/87937289)
 
-### 代码进行了调整，删除了作者一些无效代码，看起来更加的清晰
-### 作者使用了两种特征选取的方式，命名为[mid](https://github.com/zzrnuist/mRMR/blob/master/mrmr_mid_d.m) 和[miq](https://github.com/zzrnuist/mRMR/blob/master/mrmr_miq_d.m)
-## README MI 0.9
+Please run demo.m
+- 代码进行了调整，删除了作者一些无效代码，看起来更加的清晰
+- 作者使用了两种特征选取的方式，命名为[mid](https://github.com/zzrnuist/mRMR/blob/master/src/mrmr_mid_d.m) 和[miq](https://github.com/zzrnuist/mRMR/blob/master/src/mrmr_miq_d.m)
+### README MI 0.9
 
 Mutual information computation, conditional probability and entropy estimation for
 discrete/categorical variables.
@@ -35,7 +36,7 @@ Hanchuan Peng.
 
 Any inclusion or other use of this package means acceptance of this license.
  
-## Change log
+### Change log
 
 2005-10-23: Fix a programming bug in estmutualinfo.cpp which might lead to segmentation fault is not input the p1 and p2 parameters. In fact this has not led to any 
 dfference in the mutualinfo.m program, as I always call estmutualinfo using three parameters. BTW, I detected this bug when I wrote the C++ version of mRMR selection 

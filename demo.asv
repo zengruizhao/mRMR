@@ -1,0 +1,5 @@
+clear;clc;
+addpath('./src');
+load ionosphere
+find(cell2mat(Y)=='b')
+[fea] = mrmr_mid_d(X, Y, 5);
